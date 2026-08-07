@@ -5,7 +5,8 @@ import pandas as pd
 
 #page configuration
 st.set_page_config(
-    page_title="Loan Default Prediction",
+    page_title="Loan Default Prediction"
+    page_icon= "<a href="https://www.flaticon.com/free-icons/explore" title="explore icons">Explore icons created by Magnific - Flaticon</a>"
     layout="wide",
     initial_sidebar_state="expanded"
 )
