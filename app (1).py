@@ -5,7 +5,7 @@ import pandas as pd
 
 #page configuration
 st.set_page_config(
-    page_title="Loan Default Prediction"
+    page_title="Loan Default Prediction",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -174,4 +174,3 @@ if st.button("Predict Loan Default"): # This should be outside of the column con
     else:
         st.success(f"The model predicts that this borrower is UNLIKELY TO DEFAULT. (Probability: {prediction_proba:.2f})")
 st.markdown('''</div>''', unsafe_allow_html=True)
-
