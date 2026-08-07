@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 #load model
-model=joblib.load("loan_default_model.pkl")
+model=joblib.load("loan_default_model (2).pkl")
 
 #custom css
 st.markdown('''
